@@ -1,0 +1,181 @@
+@media (max-width: 1400px) {
+	.c-group.t-g1.b-tiny-slider {
+		margin-left: -50px;
+		margin-right: -5px
+	}
+	.c-group.t-g1.b-tiny-slider.folder-page {
+		margin-right: -50px;
+		margin-left: -50px;
+	}
+	body .g-wrapper .b-visual-info,
+	body .g-wrapper .b-visual-info-alt {
+		width: 1170px;
+		zoom: 1;
+		-ms-zoom: 1;
+		-moz-transform: scale(1) !important;
+		-moz-transform-origin: left top;
+	}
+	.b-mil-logo-image {
+		background-size: contain;
+		display: block;
+		height: 62px;
+		width: 95px;
+		margin: 5px auto;
+	}
+	.b-logo-holder{
+		padding-left: 0;
+		vertical-align: middle;
+	}
+	.b-logo-image {
+		width: 87px;
+		height: 87px;
+		vertical-align: middle;
+	}
+	.b-mil-logo {
+		margin-top: -18px;
+		margin-left: -13px;
+	}
+	.b-mil-logo-text {
+		padding-top: 0;
+	}
+}
+@media (max-width: 1320px) {
+	body .g-wrapper {
+		padding-left: 0;
+	}
+	.b-logo-name {
+		//font-size: 2.25em !important;
+	}
+	.b-image.t-3 {
+		height: 339px;
+	}
+	.b-image.t-3 .b-image-title {
+		padding: 3px;
+		height: 73px;
+	}
+	.s-4 .b-image.t-3 .b-image-title {
+		height: 90px;
+	}
+	.c-group.t-g1.b-tiny-slider {
+		margin-left: -20px;
+		margin-right: -20px
+	}
+	.c-group.t-g1.b-tiny-slider.folder-page {
+		margin-right: -50px;
+		margin-left: -50px;
+	}
+	body .g-wrapper .b-visual-info,
+	body .g-wrapper .b-visual-info-alt {
+		width: 1170px;
+		zoom: 0.97;
+		-ms-zoom: 0.97;
+		-moz-transform: scale(0.97) !important;
+		-moz-transform-origin: left top;
+	}
+	ul.b-main_menu-first li:last-child .b-main_menu-second {/*Главное меню-->последний пункт-->выравнивает лист с подпунктами по правому краю пункта меню*/
+		left: auto;
+		right: 0;
+	}
+	.b-mil-logo {
+		display: inline-block;
+		height: 132px;
+		margin-top: -12x;
+	}
+	.b-logo-holder{
+		padding-left: 0;
+		vertical-align: middle;
+	}
+	.b-logo-image {
+		width: 87px;
+		height: 87px;
+		vertical-align: middle;
+		margin: -12px 0 29px 10px;
+	}
+}
+@media(max-width: 1200px) {
+	/*.visual-information-container {*/
+		/*zoom: 0.9651;*/
+	/*}*/
+}
+
+@media(max-width: 1180px) {
+	body .g-wrapper {
+		width: 930px;
+	}
+	.b-main_menu-first > div > li > a, .b-main_menu-first > li > a {
+		font-size: 18px;
+	}
+	.b-text.t-1 h2 {
+		font-size: 32px;
+	}
+	.b-text.t-1 {
+		font-size: 14px;
+	}
+	body .g-wrapper .b-visual-info,
+	body .g-wrapper .b-visual-info-alt {
+		width: 1170px;
+		zoom: 0.8;
+		-ms-zoom: 0.8;
+		-moz-transform-origin: left top;
+		-moz-transform: scale(0.8)!important;
+	}
+
+	.b-image.t-3 {
+		height: 280px;
+	}
+	.b-image.t-3 .b-image-title {
+		padding: 0;
+		height: 68px;
+	}
+	.s-4 .b-image.t-3 .b-image-title {
+		height: 113px;
+	}
+	.c-group.t-g1.b-tiny-slider {
+		margin-left: -40px;
+		margin-right: -10px
+	}
+	.c-group.t-g1.b-tiny-slider.folder-page {
+		margin-right: -40px;
+		margin-left: -40px;
+		padding-left: 50px;
+		padding-right: 30px;
+	}
+	.b-preview {
+		font-size: 14px;/*ресайз заголовка в фото и видеогаллереях*/
+	}
+	ul.b-main_menu-first li:last-child .b-main_menu-second {/*Главное меню-->последний пункт-->выравнивает лист с подпунктами по правому краю пункта меню*/
+		left: auto;
+		right: 0;
+	}
+	.b-mil-logo-text {
+		font-size: 14px;
+	}
+	.b-logo-holder{
+		padding-left: 0;
+		vertical-align: middle;
+		margin: 0 0 0 -75px;
+	}
+	.b-logo-holder span{
+		-moz-transform-origin: 0 50%;
+	}
+	.visual-information-container {
+		-moz-transform: scale(0.793);
+		-moz-transform-origin: top left;
+		zoom: 0.793;
+	}
+	.b-header-info {
+		font-size: 15px;
+	}
+
+}
+
+@media(max-width: 1024px) {
+	.visual-information-container {
+		-moz-transform: scale(0.794);
+		-moz-transform-origin: top left;
+		zoom: 0.794;
+	}
+  .b-header-info {
+    font-size: 13px;
+  }
+}

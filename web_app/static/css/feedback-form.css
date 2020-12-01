@@ -1,0 +1,355 @@
+.f-style_theme1 .feedback-form-container .dropcontainer a,
+.f-style_theme2 .feedback-form-container .dropcontainer a,
+.f-style_theme3 .feedback-form-container .dropcontainer a,
+.f-style_theme4 .feedback-form-container .dropcontainer a,
+.f-style_theme5 .feedback-form-container .dropcontainer a,
+.f-style_theme6 .feedback-form-container .dropcontainer a,
+.f-style_theme7 .feedback-form-container .dropcontainer a,
+.f-style_theme16 .feedback-form-container .dropcontainer a,
+.feedback-form-container a.activetrigger,
+.feedback-form-container a.trigger{
+	border-bottom: none;
+	text-decoration: none;
+}
+
+.feedback-form-container input.f-fb-name,
+.feedback-form-container select.f-fb-text-color{
+	width: 650px;
+	height: 50px;
+	font-size:18px;
+	background-color: #f5f5f5;
+}
+
+.feedback-form-container legend.f-description {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.feedback-form-container legend.f-fb-dopinfo {
+	color: #a1a1a1;
+	margin: 5px 0 40px 0;
+	font-size:14px;
+}
+
+.feedback-form-container textarea.f-fb-comment{
+	background-color: #f5f5f5;
+	display: block;
+	margin: 0;
+	height: 150px;
+	font-size:18px;
+	width: 650px;
+}
+
+
+
+.feedback-form-container textarea.f-fb-comment::-webkit-input-placeholder {color:#a1a1a1; vertical-align: top;}
+.feedback-form-container textarea.f-fb-comment::-moz-placeholder {color:#a1a1a1;}
+.feedback-form-container textarea.f-fb-comment:-moz-placeholder {color:#a1a1a1;}
+.feedback-form-container textarea.f-fb-comment:-ms-input-placeholder {color:#a1a1a1;}
+
+.feedback-form-container span.f-fb-isError {
+	color: #ff5757;
+	display: block;
+	padding: 5px 0;
+}
+
+.feedback-form-container input[type="checkbox"],
+.feedback-form-container input[type="radio"] {
+	display:none;
+}
+
+.feedback-form-container input[type="checkbox"] + label,
+.feedback-form-container input[type="radio"] + label {
+	font: 18px bold;
+	margin:40px 0;
+	color: #444;
+	cursor: pointer;
+	display: block;
+}
+
+.feedback-form-container input[type="checkbox"].f-fb-border-color + label::before,
+.feedback-form-container input[type="radio"].f-fb-border-color + label::before {
+	content: "";
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+	background-image: url(../img/min-ring-icon.png?20170830);
+	background-repeat: no-repeat;
+}
+
+.feedback-form-container input[type="checkbox"] + label::before {
+	background-position: -298px -8px;
+}
+
+.feedback-form-container input[type="radio"] + label::before {
+	background-position: -298px -51px;
+}
+
+.feedback-form-container .f-fb-upload-files {
+	background-color: #f5f5f5;
+	display: block;
+	min-height: 60px;
+	width: 650px;
+}
+
+.f-fb-upload-files .file-container {
+	display: block;
+	position: relative;
+	margin-bottom:10px;
+	padding: 10px 10px 10px 20px;
+	height: inherit;
+	width: inherit;
+}
+
+.f-fb-upload-files .file-container.contented.f-fb-cross-label:after {
+	background-image: url('../img/min-ring-icon.png');
+	content: '';
+	cursor: pointer;
+	position: absolute;
+	right: 56px;
+	top: 20px;
+	height: 22px;
+	width: 22px;
+}
+
+.f-fb-upload-files span{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.feedback-form-container .captcha-container {
+	width: 360px;
+}
+
+.feedback-form-container .captcha-container label {
+	display: block;
+	font-size: 18px;
+}
+
+.feedback-form-container .captcha-container .b-captcha {
+	background-color: #f5f5f5;
+	display: inline-block;
+	margin-right: 10px;
+	height: 50px;
+	vertical-align: middle;
+	width: 170px;
+	cursor: pointer;
+}
+
+.feedback-form-container input.f-fb-captcha {
+	background-color: #ffffff;
+	border: solid 2px #ccc;
+	display: inline-block;
+	vertical-align: middle;
+	height: 50px;
+	width: 170px;
+}
+
+.feedback-form-container .btn-send-form {
+	width: 270px;
+	height: 50px;
+	font-size: 18px;
+}
+
+.feedback-form-container a.trigger,
+.feedback-form-container a.activetrigger {
+	color: #777;!important;
+}
+
+.dropcontainer {
+	position:relative;
+	font-size: 18px;
+	color: #777;
+}
+
+.trigger {
+	color: #777;!important;
+	padding: 15px 20px;
+	font-size: 18px;
+	width: 650px;
+	background: #f5f5f5;
+	display: block;
+	border:none;
+	position: relative;
+	outline: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+.trigger:after,
+.activetrigger:after{
+	content: '';
+	position: absolute;
+	top: 12px;
+	right: 22px;
+	height: 30px;
+	width: 30px;
+}
+
+.activetrigger {
+	color: #f5f5f5;
+	padding: 15px 20px;
+	font-size: 18px;
+	width: 650px;
+	background: #f5f5f5;
+	position: relative;
+	display: block;
+	border: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.dropcontainer ul {
+	font-size: 18px;
+	border: none;
+	background: #f5f5f5;
+	list-style-type: none;
+	padding: 10px 0;
+	margin: 0;
+	width: 650px;
+	z-index: 100;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.dropcontainer ul li {
+	padding: 15px 20px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.dropcontainer ul li:hover {
+	background: rgba(255, 247, 30, 0.2);
+	outline: none;
+}
+
+.dropcontainer ul li:first-child {
+	display: none;
+}
+
+.dropcontainer ul li:last-child {
+	border-bottom: none;
+}
+
+.dropdownhidden {
+	display: none;
+}
+
+.dropdownvisible {
+	height: auto;
+}
+
+.f-style_theme1 a.trigger:after {background: url('../img/min-ring-icon.png') -8px -115px no-repeat;}
+.f-style_theme2 a.trigger:after,
+.f-style_theme16 a.trigger:after {background: url('../img/min-ring-icon.png') -58px -115px no-repeat;}
+.f-style_theme3 a.trigger:after,
+.f-style_theme8 a.trigger:after{background: url('../img/min-ring-icon.png') -58px -115px no-repeat;}
+.f-style_theme4 a.trigger:after,
+.f-style_theme11 a.trigger:after{background: url('../img/min-ring-icon.png') -106px -115px no-repeat;}
+.f-style_theme5 a.trigger:after {background: url('../img/min-ring-icon.png') -154px -115px no-repeat;}
+.f-style_theme6 a.trigger:after,
+.f-style_theme9 a.trigger:after,
+.f-style_theme15 a.trigger:after,
+.f-style_theme17 a.trigger:after,
+.f-style_theme10 a.trigger:after{background: url('../img/min-ring-icon.png') -203px -115px no-repeat;}
+.f-style_theme7 a.trigger:after {background: url('../img/min-ring-icon.png') -252px -115px no-repeat;}
+.f-style_theme12 a.trigger:after{background: url(../img/min-ring-icon.png?20170830) -345px -115px no-repeat;}
+.f-style_theme13 a.trigger:after{background: url(../img/min-ring-icon.png?20170830) -394px -115px no-repeat;}
+.f-style_theme14 a.trigger:after{background: url(../img/min-ring-icon.png?20180115) -442px -115px no-repeat;}
+
+.f-style_theme1 a.activetrigger:after {background: url('../img/min-ring-icon.png') -8px -88px no-repeat;}
+.f-style_theme2 a.activetrigger:after,
+.f-style_theme16 a.activetrigger:after {background: url('../img/min-ring-icon.png') -58px -88px no-repeat;}
+.f-style_theme3 a.activetrigger:after,
+.f-style_theme8 a.activetrigger:after {background: url('../img/min-ring-icon.png') -58px -88px no-repeat;}
+.f-style_theme4 a.activetrigger:after,
+.f-style_theme11 a.activetrigger:after{background: url('../img/min-ring-icon.png') -106px -88px no-repeat;}
+.f-style_theme5 a.activetrigger:after {background: url('../img/min-ring-icon.png') -154px -88px no-repeat;}
+.f-style_theme6 a.activetrigger:after,
+.f-style_theme9 a.activetrigger:after,
+.f-style_theme15 a.activetrigger:after,
+.f-style_theme17 a.activetrigger:after,
+.f-style_theme10 a.activetrigger:after{background: url('../img/min-ring-icon.png') -203px -88px no-repeat;}
+.f-style_theme7 a.activetrigger:after {background: url('../img/min-ring-icon.png') -252px -88px no-repeat;}
+.f-style_theme12 a.activetrigger:after{background: url(../img/min-ring-icon.png?20170830) -345px -88px no-repeat;}
+.f-style_theme13 a.activetrigger:after{background: url(../img/min-ring-icon.png?20170830) -394px -88px no-repeat;}
+.f-style_theme14 a.activetrigger:after{background: url(../img/min-ring-icon.png?20180115) -442px -88px no-repeat;}
+
+.f-fb-upload-files .file_upload{
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 46px;
+	width: 500px;
+}
+.f-fb-upload-files .file_upload .button, .file_upload > mark{
+	cursor: pointer              /* example */
+}
+.f-fb-upload-files .file_upload .button{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	cursor: pointer;
+	width: 8em;                  /* example */
+	height: 100%;
+	text-align: center           /* example */
+}
+.f-fb-upload-files .file_upload > mark{
+	background: transparent;
+	cursor: pointer;
+	color: #a1a1a1;
+	display: inline-block;
+	position: absolute;
+	top: 9px;
+	padding-left: 1em
+}
+.f-fb-upload-files .file_upload input[type=file]{
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	width: 128px;
+}
+.f-fb-upload-files .f-fb-cross-label {
+	background-image: url('../img/min-ring-icon.png');
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	height: 22px;
+	margin: 13px 44px 0 0;
+	width: 22px;
+}
+
+#feedback-form .isError{
+	border: solid 2px #ff5757;!important;
+}
+/*******form ver.2 align-center*****/
+.feedback-form-container .f-fb-align-center {
+	width: 650px;
+	margin: 0 auto;
+}
+.feedback-form-container .f-fb-align-center input.f-fb-name,
+.feedback-form-container .f-fb-align-center select.f-fb-text-color,
+.feedback-form-container .f-fb-align-center textarea.f-fb-comment,
+.feedback-form-container .f-fb-align-center .trigger,
+.feedback-form-container .f-fb-align-center .f-fb-upload-files{
+	width: 650px;
+}
+
+.feedback-form-container .b-input-files {
+	margin-top: 20px;
+}

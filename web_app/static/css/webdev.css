@@ -1,0 +1,26 @@
+.b-main_photo-image.dx-no-back:before {
+    background: none;
+}
+
+.ico.i_el_journal, .f-style_theme3 .ico.i_el_journal {
+    width: 15px;
+    height: 20px;
+    padding-right: 3px;
+    background: url("../img/el_journal.png") 100% 100% no-repeat;
+}
+
+.b-main_photo-image.dx-auto-scaling {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+}
+
+.b-main_photo-image.dx-auto-scaling img {
+    margin: auto;
+}
+
+.b-main_photo-image.dx-auto-scaling::before{
+    width: 1920px;
+    margin: auto;
+}
