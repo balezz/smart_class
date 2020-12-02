@@ -5,10 +5,11 @@ from faces import DetectEmotion
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def index():
-    obj=DetectEmotion()
     return render_template('index.html')
+
 
 def gen(camera):
     while True:
