@@ -5,7 +5,7 @@ import numpy as np
 
 face_classifier=cv2.CascadeClassifier('static/haarcascade_frontalface_default.xml')
 interpreter = tflite.Interpreter('../train/model.tflite')
-class_labels=['Angry', 'Happy', 'Neutral', 'Sad', 'Surprise']
+class_labels = ['Angry', 'Happy', 'Neutral', 'Sad', 'Surprise']
 
 interpreter.allocate_tensors()
 in_details = interpreter.get_input_details()
@@ -22,7 +22,7 @@ def predict(in_data):
 
 class DetectEmotion(object):
     def __init__(self):
-        self.cap=cv2.VideoCapture(0)
+        self.cap = cv2.VideoCapture(0)
 
     def __del__(self):
         self.cap.release()
